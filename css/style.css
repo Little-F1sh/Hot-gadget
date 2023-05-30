@@ -6,10 +6,14 @@
   font-weight: bold;
 }
 .carousel-indicators [data-bs-target] {
-  background-color: #8b7127;
+  background-color: #FDC830;
+  /* fallback for old browsers */
   background-color: -webkit-linear-gradient(to right, #F37335, #FDC830);
+  /* Chrome 10-25, Safari 5.1-6 */
   background-color: linear-gradient(to right, #F37335, #FDC830);
-  padding: 2px;
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 1px;
+  border-radius: 2px;
 }
 
 .carousel-item{
@@ -18,4 +22,10 @@
 .card {
   border: none;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+.catagories-picture {
+  box-shadow: rgba(0, 0, 0, 0.185) 0px 0px 0px 1px;
+}
+.phone-images {
+  width: 100%;
 }
